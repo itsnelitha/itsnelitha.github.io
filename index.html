@@ -15,6 +15,15 @@
     gtag('config', 'G-3CVNTEFXLR');
   </script>
 
+<?php
+$email = "user@example.com";
+$default = "mp"; // other options: identicon, retro, robohash, etc.
+$size = 200; // image size in px
+
+$grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) . "?s=$size&d=$default";
+?>
+
+
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Nelitha Priyawansha - Web Developer | Cinematographer | Artist | Journalist</title>
@@ -31,15 +40,15 @@
 
   <meta property="og:title" content="Nelitha Priyawansha - Web Developer | Cinematographer | Artist | Journalist">
   <meta property="og:description" content="Explore my journey in web development, cinematography,journalism and more.">
-  <meta property="og:image" content="https://itsnelitha.github.io/assets/img/profile-img.webp">
+  <meta property="og:image" content="https://www.gravatar.com/avatar/d6d37a15802877c37c1cb895d09a830b?s=400&d=identicon">
   <meta property="og:url" content="https://itsnelitha.github.io">
   <meta property="og:type" content="website">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Nelitha Priyawansha - Web Developer | Cinematographer | Artist | Journalist">
   <meta name="twitter:description" content="Explore my journey in web development, cinematography,journalism and more.">
-  <meta name="twitter:image" content="https://itsnelitha.github.io/assets/img/profile-img.webp">
-  <meta name="twitter:creator" content="@nelitha_13">
+  <meta name="twitter:image" content="https://www.gravatar.com/avatar/d6d37a15802877c37c1cb895d09a830b?s=400&d=identicon">
+  <meta name="twitter:creator" content="@itsnelitha">
 
   <link rel="canonical" href="https://itsnelitha.github.io">
   <meta name="theme-color" content="#184ad2">
@@ -55,7 +64,7 @@
       "name": "Nelitha Priyawansha",
       "alternateName": "itsnelitha",
       "url": "https://itsnelitha.github.io",
-      "image": "https://itsnelitha.github.io/assets/img/profile-img.webp", 
+      "image": "https://www.gravatar.com/avatar/d6d37a15802877c37c1cb895d09a830b?s=400&d=identicon", 
       "sameAs": [
         "https://www.facebook.com/itsnelitha",
         "https://www.instagram.com/itsnelitha",
@@ -352,8 +361,18 @@
 
         <div class="row gy-4 justify-content-center">
           <div class="col-lg-4">
-            <img src="assets/img/profile-img.webp" class="img-fluid" alt="">
+            <img id="gravatar-avatar" src="assets/img/profile-img.webp" class="img-fluid" alt="User Avatar">
           </div>
+          
+          <script src="https://cdn.jsdelivr.net/npm/js-md5/build/md5.min.js"></script>
+          <script>
+            let email = "nelithavindinu7@gmail.com";
+            let emailHash = md5(email.toLowerCase().trim());
+            let gravatarUrl = `https://www.gravatar.com/avatar/${emailHash}?s=400&d=identicon`;
+
+            document.getElementById("gravatar-avatar").src = gravatarUrl;
+          </script>
+          
           <div class="col-lg-8 content">
             <h2>Web Developer, Cinematographer, Musical Artist &amp; Journalist.</h2>
             <p class="fst-italic py-3">
