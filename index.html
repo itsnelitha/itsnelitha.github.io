@@ -15,15 +15,6 @@
     gtag('config', 'G-3CVNTEFXLR');
   </script>
 
-<?php
-$email = "user@example.com";
-$default = "mp"; // other options: identicon, retro, robohash, etc.
-$size = 200; // image size in px
-
-$grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) . "?s=$size&d=$default";
-?>
-
-
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
   <title>Nelitha Priyawansha - Web Developer | Cinematographer | Artist | Journalist</title>
@@ -40,14 +31,16 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
 
   <meta property="og:title" content="Nelitha Priyawansha - Web Developer | Cinematographer | Artist | Journalist">
   <meta property="og:description" content="Explore my journey in web development, cinematography,journalism and more.">
-  <meta property="og:image" content="https://www.gravatar.com/avatar/d6d37a15802877c37c1cb895d09a830b?s=400&d=identicon">
+  <meta property="og:image"
+    content="https://www.gravatar.com/avatar/d6d37a15802877c37c1cb895d09a830b?s=400&d=identicon">
   <meta property="og:url" content="https://itsnelitha.github.io">
   <meta property="og:type" content="website">
 
   <meta name="twitter:card" content="summary_large_image">
   <meta name="twitter:title" content="Nelitha Priyawansha - Web Developer | Cinematographer | Artist | Journalist">
   <meta name="twitter:description" content="Explore my journey in web development, cinematography,journalism and more.">
-  <meta name="twitter:image" content="https://www.gravatar.com/avatar/d6d37a15802877c37c1cb895d09a830b?s=400&d=identicon">
+  <meta name="twitter:image"
+    content="https://www.gravatar.com/avatar/d6d37a15802877c37c1cb895d09a830b?s=400&d=identicon">
   <meta name="twitter:creator" content="@itsnelitha">
 
   <link rel="canonical" href="https://itsnelitha.github.io">
@@ -90,7 +83,7 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
       }
     }
     </script>
-    
+
 
   <script type="application/ld+json">
     {
@@ -206,8 +199,6 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
 
   <main class="main">
     <style>
-  
-
       /* General Reset */
       * {
         margin: 0;
@@ -320,8 +311,8 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
     <!-- Home Section -->
     <section id="home" class="hero section dark-background position-relative">
       <div class="container text-center" data-aos="zoom-out" data-aos-delay="100">
-        <h2 >Nelitha Vindinu Priyawansha</h2>
-        <p >
+        <h2>Nelitha Vindinu Priyawansha</h2>
+        <p>
           <span class="typed" data-typed-items="Developer, Cinematographer, Journalist, Musical Artist"></span>
           <span class="typed-cursor typed-cursor--blink"></span>
         </p>
@@ -363,7 +354,7 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
           <div class="col-lg-4">
             <img id="gravatar-avatar" src="assets/img/profile-img.webp" class="img-fluid" alt="User Avatar">
           </div>
-          
+
           <script src="https://cdn.jsdelivr.net/npm/js-md5/build/md5.min.js"></script>
           <script>
             let email = "nelithavindinu7@gmail.com";
@@ -372,7 +363,7 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
 
             document.getElementById("gravatar-avatar").src = gravatarUrl;
           </script>
-          
+
           <div class="col-lg-8 content">
             <h2>Web Developer, Cinematographer, Musical Artist &amp; Journalist.</h2>
             <p class="fst-italic py-3">
@@ -662,15 +653,15 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1100">
             <div class="features-item">
-              <i class="bi bi-trophy" style="color: #47aeff;"></i>
-              <h3><a href="#interests" class="stretched-link">Cricket</a></h3>
+              <i class="bi bi-speedometer2" style="color: #FF1E00;"></i>
+              <h3><a href="#interests" class="stretched-link">Formula 1</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
           <div class="col-lg-3 col-md-4" data-aos="fade-up" data-aos-delay="1200">
             <div class="features-item">
-              <i class="bi bi-radioactive" style="color: #ffa76e;"></i>
-              <h3><a href="#interests" class="stretched-link">Football</a></h3>
+              <i class="bi bi-trophy" style="color: #47aeff;"></i>
+              <h3><a href="#interests" class="stretched-link">Cricket</a></h3>
             </div>
           </div><!-- End Feature Item -->
 
@@ -799,8 +790,10 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
           <h2>Services</h2>
           <div><span>My</span> <span class="description-title">Services</span></div>
         </div><!-- End Section Title -->
+
         <div class="row gy-4">
 
+          <!-- 1 -->
           <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="100">
             <div class="service-item position-relative">
               <div class="icon">
@@ -814,7 +807,8 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
+          <!-- 2 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-palette"></i>
@@ -823,12 +817,12 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
                 <h3>UI/UX Designing</h3>
               </a>
               <p>Create visually appealing and intuitive user interfaces to enhance user satisfaction and engagement
-                with
-                digital products.</p>
+                with digital products.</p>
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="200">
+          <!-- 3 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-camera-video"></i>
@@ -837,12 +831,12 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
                 <h3>Videography</h3>
               </a>
               <p>Capture cinematic visuals and craft storytelling experiences for events, vlogs, and promotional
-                content.
-              </p>
+                content.</p>
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+          <!-- 4 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-scissors"></i>
@@ -855,7 +849,8 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="400">
+          <!-- 5 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-music-note-list"></i>
@@ -868,7 +863,8 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
             </div>
           </div><!-- End Service Item -->
 
-          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="500">
+          <!-- 6 -->
+          <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="600">
             <div class="service-item position-relative">
               <div class="icon">
                 <i class="bi bi-people"></i>
@@ -877,19 +873,15 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
                 <h3>Social Media Management</h3>
               </a>
               <p>Grow your online presence by creating engaging content and managing social media platforms
-                strategically.
-              </p>
+                strategically.</p>
             </div>
           </div><!-- End Service Item -->
 
-
-
-
         </div>
-
       </div>
 
     </section><!-- /Services Section -->
+
 
 
     <!-- Portfolio Section -->
@@ -1071,7 +1063,7 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
 
       </div>
 
-     
+
 
       <!-- <div class="container section-title" data-aos="fade-up">
         <h2>Portfolio</h2>
@@ -1125,23 +1117,43 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
               <div>
                 <h3>Social Profiles</h3>
                 <div class="social-links">
+
                   <a href="https://www.facebook.com/itsnelitha" target="_blank" aria-label="Visit my Facebook profile">
                     <i class="bi bi-facebook"></i>
                   </a>
+
                   <a href="https://www.instagram.com/itsnelitha" target="_blank"
                     aria-label="Visit my Instagram profile">
                     <i class="bi bi-instagram"></i>
                   </a>
-                  <a href="https://www.youtube.com/@itsnelitha" target="_blank"
-                    aria-label="Visit my YouTube channel">
+
+                  <a href="https://www.youtube.com/@itsnelitha" target="_blank" aria-label="Visit my YouTube channel">
                     <i class="bi bi-youtube"></i>
                   </a>
+
                   <a href="https://www.linkedin.com/in/itsnelitha/" target="_blank"
                     aria-label="Visit my LinkedIn profile">
                     <i class="bi bi-linkedin"></i>
                   </a>
 
+                  <a href="https://x.com/itsnelitha" target="_blank" aria-label="Visit my X (Twitter) profile">
+                    <i class="bi bi-twitter-x"></i>
+                  </a>
+
+                  <a href="https://tiktok.com/@itsnelitha" target="_blank" aria-label="Visit my TikTok profile">
+                    <i class="bi bi-tiktok"></i>
+                  </a>
+
+                  <a href="https://threads.net/itsnelitha" target="_blank" aria-label="Visit my Threads profile">
+                    <i class="bi bi-threads"></i>
+                  </a>
+
+                  <a href="https://github.com/itsnelitha" target="_blank" aria-label="Visit my GitHub profile">
+                    <i class="bi bi-github"></i>
+                  </a>
+
                 </div>
+
               </div>
             </div>
           </div><!-- End Info Item -->
@@ -1179,7 +1191,7 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
       </form> -->
 
       </div>
-<br><br>
+      <br><br>
     </section><!-- /Contact Section -->
 
     <footer id="footer" class="footer dark-background">
@@ -1209,10 +1221,8 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
               Priyawansha.</strong> <span>All Rights Reserved.</span>
 
             <script>
-              // Get the current year
               const currentYear = new Date().getFullYear();
 
-              // Set the year dynamically
               document.getElementById('current-year').textContent = currentYear;
             </script>
 
@@ -1231,17 +1241,15 @@ $grav_url = "https://www.gravatar.com/avatar/" . md5(strtolower(trim($email))) .
     <!-- Preloader -->
     <div id="preloader"></div>
     <script>
-      // Get all the navigation links
       const navLinks = document.querySelectorAll('nav a');
 
-      // Smooth scroll for navigation links
       navLinks.forEach(link => {
         link.addEventListener('click', (e) => {
           e.preventDefault();
           const targetId = link.getAttribute('href').substring(1);
           const targetSection = document.getElementById(targetId);
           window.scrollTo({
-            top: targetSection.offsetTop - 50, // Adjust offset for the fixed nav
+            top: targetSection.offsetTop - 50, 
             behavior: 'smooth'
           });
         });
