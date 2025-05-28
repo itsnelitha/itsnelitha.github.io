@@ -8,11 +8,12 @@ My name is Nelitha Vindinu Priyawansha. I am located in Panadura, Sri Lanka. I s
 
 I am Sri Lankan. I am a Cambrian. I am a Developer. I am a Film Maker. I am a Tech Enthusiast.
 
-**Birthday:** 13 May 2006
-**City:** Panadura, Sri Lanka
-**Degree:** Student
-**Email:** nelithaonline2006@gmail.com
-**Freelance:** Available
+* **Birthday:** 13 May 2006
+* **City:** Panadura, Sri Lanka
+* **Degree:** Student
+* **Email:** nelithaonline2006@gmail.com
+* **Freelance:** Available
+
 
 Nelitha Priyawansha is a talented web developer, content creator, and aspiring AI enthusiast from Sri Lanka, known for his impactful projects and contributions to the digital world.
 
