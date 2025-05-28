@@ -1,6 +1,6 @@
 # Nelitha Vindinu Priyawansha
 
-Web Developer, Cinematographer, Musical Artist & Journalist.
+Developer, Film Maker, Journalist, & Musical Artist.
 
 ## About Me
 
